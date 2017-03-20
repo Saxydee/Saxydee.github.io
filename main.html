@@ -17,20 +17,20 @@
    position="1 2 -5"
    rotation="45 45 45"
    scale="2 2 2"
-   src="#texture" >
+   color="red" >
    <a-animation attribute="rotation"
                dur="10000"
                fill="forwards"
                to="0 360 0"
                repeat="indefinite"></a-animation>
-            
+    <a-light type="ambient" position="0 3 2"  color="white"></a-light>        
 
    </a-box>
    <a-text value="Hello, World!" color="white "  width="5" height="5" position="1 2 -6"></a-text>
     <a-plane src="#groundTexture" rotation="-90 0 0" width="30" height="30"  repeat=" 5 5 0"
    ></a-plane>
    <a-light type="ambient" position="0 5 2" rotation="-45 0 0 " color="white"></a-light>
-   <a-sky src="https://github.com/Saxydee/Saxydee.github.io/blob/master/glass.jpg" >
+   <a-sky color="white" >
    </a-sky>
    
    <a-camera position="0 2 4">
